@@ -21,7 +21,7 @@ export default function RouteHandler() {
     const handleSplashScreen = () => {
 
         setTimeout(() => {
-            setRoleAuthDetails('rider')
+            // setRoleAuthDetails('rider')
             setLoading(false)
         }, 3000);
     }
