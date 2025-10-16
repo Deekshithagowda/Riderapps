@@ -9,7 +9,6 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnable
 import com.facebook.react.defaults.DefaultReactActivityDelegate
 
 import expo.modules.ReactActivityDelegateWrapper
-import android.os.Bundle;
 
 class MainActivity : ReactActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,9 +18,7 @@ class MainActivity : ReactActivity() {
     setTheme(R.style.AppTheme);
     super.onCreate(null)
   }
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(null)
-  }
+
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
