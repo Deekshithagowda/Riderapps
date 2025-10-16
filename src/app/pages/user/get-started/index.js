@@ -28,10 +28,27 @@ export default function GetStarted() {
                     Join MagicBees and start your journey today — as a driver or rider.
                 </Text>
                 <View className='flex w-full flex-row gap-2'>
-                    <Button title='Register as Rider' buttonColor={color.secondary} mode='contained' flex={1} fontFamily='telex-reg' borderRadius={14} fontSize={17} />
+                      <Button
+            title="Register as Rider"
+            buttonColor={color.secondary}
+            mode="contained"
+            height={rh(5.5)}
 
-                    <Button title='Register as Driver' height={50.85} mode='contained' flex={1} fontFamily='telex-reg' borderRadius={14} fontSize={17} />
+            flex={1}
+            fontFamily="telex-reg"
+            borderRadius={14}
+            fontSize={font_size.fs_14}
+          />
 
+          <Button
+            title="Register as Driver"
+            height={rh(5.5)}
+            mode="contained"
+            flex={1}
+            fontFamily="telex-reg"
+            borderRadius={14}
+            fontSize={font_size.fs_14}
+          />
                 </View>
             </View>
         </View>
